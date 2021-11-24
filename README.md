@@ -1,9 +1,13 @@
 # MAMMHT
 
+It is reccomended you use the Anaconda distribution of OrthoFinder, but local instalation will also work
+
+
 ```
-Dependancies: <= gffread
-              <= Bio
-              <= BCBio
+conda install -c bioconda gffread 
+conda install -c bioconda bcbio-gff
+conda install -c bioconda orthofinder
+
 ```
 Tool to find horizontal gene transfer events through bottom up hierarchical clustering of OrthoFinders ontology groups based on outliers in consensus tree
 
