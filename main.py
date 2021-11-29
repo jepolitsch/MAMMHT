@@ -12,7 +12,6 @@ def setting():
     parser.add_argument("-o", "--orthofinder", nargs="?", default=False, help="Optional Arg. To run orthofinder on the output, enter -o <Prot_directory>")
     # parser.add_argument("-m", "--min",  default="0.01", help="minimum number of reads to plot a species as fraction of total mappd reads [0-1]")
     # parser.add_argument("-c", "--correct", action='store_true', help="correct or not reads via racon")
-    # parser.add_argument("-a", "--assembled", action='store_true', help="assembled-reads")
     # parser.add_argument("-p", "--percentage", type = float, default="90", help="minimum identity to consider a valid alignment")
     # parser.add_argument("-mr", "--min_reads", type = float, default="100", help="minimum number of reads to sequence to consider a sample in the analysis")
     args = parser.parse_args()
